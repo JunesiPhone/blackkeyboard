@@ -1,5 +1,5 @@
 export THEOS_DEVICE_IP=localhost -p 2222
-export TARGET = iphone:9.2:9.2
+export TARGET = iphone:10.1:10.1
 
 include $(THEOS)/makefiles/common.mk
 

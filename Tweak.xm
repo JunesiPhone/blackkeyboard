@@ -34,3 +34,9 @@
 		return [UIColor lightGrayColor];
 	}
 %end
+
+%hook UIDevice
+- (long long)_keyboardGraphicsQuality {
+	return 10; //default 100 - 10 is black
+}
+%end
